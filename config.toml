@@ -1,0 +1,43 @@
+[global]
+# 开发模式设置
+developmentMode = false
+
+# 数据框显示设置
+dataFrameSerialization = "legacy"
+
+[server]
+# 服务器设置
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+enableWebsocketCompression = false
+
+# 运行器设置
+[runner]
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+postScriptGC = true
+fastReruns = true
+
+# 浏览器设置
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+serverPort = 8501
+
+# 主题设置
+[theme]
+primaryColor = "#667eea"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+# 客户端设置
+[client]
+caching = true
+displayEnabled = true
+showErrorDetails = true
